@@ -21,10 +21,10 @@ body {
 }
 
 .title-container:hover {
-    transform: scale(1.02);
-    transition: 0.3s ease;
-  }
-  
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
 .title {
   white-space: nowrap;
   border: 1px solid rgba(151, 135, 135, 0.943);
@@ -62,9 +62,9 @@ body {
 }
 
 .Timer-Body:hover {
-    transform: scale(1.02);
-    transition: 0.3s ease;
-  }
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
 
 .big-text {
   font-size: 5rem;
@@ -74,4 +74,16 @@ body {
 .coundown-el {
   text-align: center;
   padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .big-text {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .big-text {
+    font-size: 8rem;
+  }
 }
